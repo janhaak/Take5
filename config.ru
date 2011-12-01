@@ -3,6 +3,6 @@ require 'bundler'
 
 Bundler.require
 
-require './take5'
+require './server/take5'
 
 run Take5
