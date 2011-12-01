@@ -1,0 +1,11 @@
+{
+	"user":"TestUser",
+	"password":"TestPassword",
+	"data": {        
+		"template":"TestCompany",
+		"author":"Power Man",
+		"Submitted":"29/07/1986 16:05",
+		"crew":"A",
+		"task":"Cleaning the shitter"
+	}
+}

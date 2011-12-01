@@ -1,0 +1,46 @@
+{ 
+	"name": "Test Company Template",
+	"description": "Contains a relatively complex example structure",
+	"sections" : [
+		{
+			"name": "Section 1",
+			"position": 1,
+			"fields" : [
+				{
+					"name" : "TestStringBox",
+					"label" : "Test String Box",
+					"position" : 1,
+					"required" : true,
+					"type" : "String"
+				},
+				{
+				 	"name" : "TestYesNo",
+					"label" : "Test Yes No",
+					"position" : 2,
+					"required" : true,
+					"type" : "Boolean"
+				},
+				{
+				 	"name" : "TestComboBox",
+					"label" : "Test Combo Box",
+					"position" : 3,
+					"required" : false,
+					"type" : "ComboBox",
+					"options" : ["yes", "no", "haak", "anus"]
+				}
+		   	]
+		},
+		{
+			"name": "Section 2",
+			"position": 2,
+			"fields" : [
+				{ 
+					"name" : "TestSection2Field",
+					"label" : "Test Section 2 Field",
+					"position" : 1,
+					"required" : false,
+					"type" : "Boolean"
+				}]
+		 }
+	 ]   		
+}

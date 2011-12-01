@@ -1,0 +1,64 @@
+                             { 
+	"name": "Downer EDi",
+	"description": "Downer EDi Mining",
+	"sections" : [
+		{
+			"name": "Personal Checks",
+			"position": 1,
+			"fields" : [
+				{
+					"name" : "inspectedArea",
+					"label" : "Have I clearly inspected the area I am working in?",
+					"position" : 1,
+					"required" : true,
+					"type" : "Boolean"
+				},
+				{
+				 	"name" : "understandTheTask",
+					"label" : "Do I clearly understand the task?",
+					"position" : 2,
+					"required" : true,
+					"type" : "Boolean"
+				},
+				{
+				 	"name" : "authorisedCompetent",
+					"label" : "Am I authorised / competent to do the task?",
+					"position" : 3,
+					"required" : true,
+					"type" : "Boolean"
+				},
+				{
+				 	"name" : "correctPPE",
+					"label" : "Do I have the correct PPE and tools to complete the task?",
+					"position" : 4,
+					"required" : true,
+					"type" : "Boolean"
+				},
+				{
+				 	"name" : "siteInducted",
+					"label" : "Have I been site inducted into the relevant work area?",
+					"position" : 5,
+					"required" : true,
+					"type" : "Boolean"
+				}				
+		   	]
+		},
+		{
+			"name": "Personal Controls",
+			"position": 2,
+			"fields" : [
+				{ 
+					"name" : "permitsCompleted",
+					"label" : "Permits Completed",
+					"position" : 1,
+					"required" : false,
+					"type" : "MultiSelect",
+					"values" : ["Excavation","Work at Heights", "Essential Services", "Hot Work", "Confined Space"]
+				}]
+		 }
+	 ],
+	"hazards" : {
+		"consequencesCount" : 5,
+		"severityCount" : 5
+	}   		
+}
