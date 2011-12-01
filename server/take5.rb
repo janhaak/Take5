@@ -15,6 +15,10 @@ class Take5 < Sinatra::Base
 	
 	configure :production do
 		puts "TODO - Load production mongo"
+		@@conn = Mongo::Connection.new("ec2-174-129-188-30.compute-1.amazonaws.com")
+		@@db = @@conn["take5"]
+		@@db.authenticate("testprod","testpassword")
+		@@resultsCol = @@db["results"]
 	end
 	
 	@@TemplateDir="./Templates/"
