@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D23C63FF1487307400BD76E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C63FE1487307400BD76E7 /* UIKit.framework */; };
+		D23C64011487307400BD76E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C64001487307400BD76E7 /* Foundation.framework */; };
+		D23C64031487307400BD76E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C64021487307400BD76E7 /* CoreGraphics.framework */; };
+		D23C64051487307400BD76E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C64041487307400BD76E7 /* CoreData.framework */; };
+		D23C640B1487307400BD76E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23C64091487307400BD76E7 /* InfoPlist.strings */; };
+		D23C640D1487307400BD76E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C640C1487307400BD76E7 /* main.m */; };
+		D23C64111487307400BD76E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C64101487307400BD76E7 /* AppDelegate.m */; };
+		D23C64141487307400BD76E7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23C64121487307400BD76E7 /* MainStoryboard.storyboard */; };
+		D23C64171487307400BD76E7 /* Take5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D23C64151487307400BD76E7 /* Take5.xcdatamodeld */; };
+		D23C64251487307400BD76E7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C64241487307400BD76E7 /* SenTestingKit.framework */; };
+		D23C64261487307400BD76E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C63FE1487307400BD76E7 /* UIKit.framework */; };
+		D23C64271487307400BD76E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C64001487307400BD76E7 /* Foundation.framework */; };
+		D23C64281487307400BD76E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C64041487307400BD76E7 /* CoreData.framework */; };
+		D23C64301487307400BD76E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23C642E1487307400BD76E7 /* InfoPlist.strings */; };
+		D23C64331487307400BD76E7 /* Take5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C64321487307400BD76E7 /* Take5Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D23C64291487307400BD76E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23C63F11487307400BD76E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23C63F91487307400BD76E7;
+			remoteInfo = Take5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D23C63FA1487307400BD76E7 /* Take5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Take5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23C63FE1487307400BD76E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D23C64001487307400BD76E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D23C64021487307400BD76E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D23C64041487307400BD76E7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D23C64081487307400BD76E7 /* Take5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Take5-Info.plist"; sourceTree = "<group>"; };
+		D23C640A1487307400BD76E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D23C640C1487307400BD76E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D23C640E1487307400BD76E7 /* Take5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Take5-Prefix.pch"; sourceTree = "<group>"; };
+		D23C640F1487307400BD76E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D23C64101487307400BD76E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D23C64131487307400BD76E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D23C64161487307400BD76E7 /* Take5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Take5.xcdatamodel; sourceTree = "<group>"; };
+		D23C64231487307400BD76E7 /* Take5Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Take5Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23C64241487307400BD76E7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D23C642D1487307400BD76E7 /* Take5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Take5Tests-Info.plist"; sourceTree = "<group>"; };
+		D23C642F1487307400BD76E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D23C64311487307400BD76E7 /* Take5Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Take5Tests.h; sourceTree = "<group>"; };
+		D23C64321487307400BD76E7 /* Take5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Take5Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23C63F71487307400BD76E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23C63FF1487307400BD76E7 /* UIKit.framework in Frameworks */,
+				D23C64011487307400BD76E7 /* Foundation.framework in Frameworks */,
+				D23C64031487307400BD76E7 /* CoreGraphics.framework in Frameworks */,
+				D23C64051487307400BD76E7 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23C641F1487307400BD76E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23C64251487307400BD76E7 /* SenTestingKit.framework in Frameworks */,
+				D23C64261487307400BD76E7 /* UIKit.framework in Frameworks */,
+				D23C64271487307400BD76E7 /* Foundation.framework in Frameworks */,
+				D23C64281487307400BD76E7 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D23C63EF1487307400BD76E7 = {
+			isa = PBXGroup;
+			children = (
+				D23C64061487307400BD76E7 /* Take5 */,
+				D23C642B1487307400BD76E7 /* Take5Tests */,
+				D23C63FD1487307400BD76E7 /* Frameworks */,
+				D23C63FB1487307400BD76E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D23C63FB1487307400BD76E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23C63FA1487307400BD76E7 /* Take5.app */,
+				D23C64231487307400BD76E7 /* Take5Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23C63FD1487307400BD76E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23C63FE1487307400BD76E7 /* UIKit.framework */,
+				D23C64001487307400BD76E7 /* Foundation.framework */,
+				D23C64021487307400BD76E7 /* CoreGraphics.framework */,
+				D23C64041487307400BD76E7 /* CoreData.framework */,
+				D23C64241487307400BD76E7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23C64061487307400BD76E7 /* Take5 */ = {
+			isa = PBXGroup;
+			children = (
+				D23C640F1487307400BD76E7 /* AppDelegate.h */,
+				D23C64101487307400BD76E7 /* AppDelegate.m */,
+				D23C64121487307400BD76E7 /* MainStoryboard.storyboard */,
+				D23C64151487307400BD76E7 /* Take5.xcdatamodeld */,
+				D23C64071487307400BD76E7 /* Supporting Files */,
+			);
+			path = Take5;
+			sourceTree = "<group>";
+		};
+		D23C64071487307400BD76E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23C64081487307400BD76E7 /* Take5-Info.plist */,
+				D23C64091487307400BD76E7 /* InfoPlist.strings */,
+				D23C640C1487307400BD76E7 /* main.m */,
+				D23C640E1487307400BD76E7 /* Take5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D23C642B1487307400BD76E7 /* Take5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D23C64311487307400BD76E7 /* Take5Tests.h */,
+				D23C64321487307400BD76E7 /* Take5Tests.m */,
+				D23C642C1487307400BD76E7 /* Supporting Files */,
+			);
+			path = Take5Tests;
+			sourceTree = "<group>";
+		};
+		D23C642C1487307400BD76E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23C642D1487307400BD76E7 /* Take5Tests-Info.plist */,
+				D23C642E1487307400BD76E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23C63F91487307400BD76E7 /* Take5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23C64361487307400BD76E7 /* Build configuration list for PBXNativeTarget "Take5" */;
+			buildPhases = (
+				D23C63F61487307400BD76E7 /* Sources */,
+				D23C63F71487307400BD76E7 /* Frameworks */,
+				D23C63F81487307400BD76E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Take5;
+			productName = Take5;
+			productReference = D23C63FA1487307400BD76E7 /* Take5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D23C64221487307400BD76E7 /* Take5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23C64391487307400BD76E7 /* Build configuration list for PBXNativeTarget "Take5Tests" */;
+			buildPhases = (
+				D23C641E1487307400BD76E7 /* Sources */,
+				D23C641F1487307400BD76E7 /* Frameworks */,
+				D23C64201487307400BD76E7 /* Resources */,
+				D23C64211487307400BD76E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23C642A1487307400BD76E7 /* PBXTargetDependency */,
+			);
+			name = Take5Tests;
+			productName = Take5Tests;
+			productReference = D23C64231487307400BD76E7 /* Take5Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23C63F11487307400BD76E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D23C63F41487307400BD76E7 /* Build configuration list for PBXProject "Take5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D23C63EF1487307400BD76E7;
+			productRefGroup = D23C63FB1487307400BD76E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23C63F91487307400BD76E7 /* Take5 */,
+				D23C64221487307400BD76E7 /* Take5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23C63F81487307400BD76E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23C640B1487307400BD76E7 /* InfoPlist.strings in Resources */,
+				D23C64141487307400BD76E7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23C64201487307400BD76E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23C64301487307400BD76E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D23C64211487307400BD76E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23C63F61487307400BD76E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23C640D1487307400BD76E7 /* main.m in Sources */,
+				D23C64111487307400BD76E7 /* AppDelegate.m in Sources */,
+				D23C64171487307400BD76E7 /* Take5.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23C641E1487307400BD76E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23C64331487307400BD76E7 /* Take5Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D23C642A1487307400BD76E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23C63F91487307400BD76E7 /* Take5 */;
+			targetProxy = D23C64291487307400BD76E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D23C64091487307400BD76E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23C640A1487307400BD76E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D23C64121487307400BD76E7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23C64131487307400BD76E7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D23C642E1487307400BD76E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23C642F1487307400BD76E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D23C64341487307400BD76E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D23C64351487307400BD76E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23C64371487307400BD76E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take5/Take5-Prefix.pch";
+				INFOPLIST_FILE = "Take5/Take5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D23C64381487307400BD76E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take5/Take5-Prefix.pch";
+				INFOPLIST_FILE = "Take5/Take5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D23C643A1487307400BD76E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Take5.app/Take5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take5/Take5-Prefix.pch";
+				INFOPLIST_FILE = "Take5Tests/Take5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D23C643B1487307400BD76E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Take5.app/Take5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take5/Take5-Prefix.pch";
+				INFOPLIST_FILE = "Take5Tests/Take5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23C63F41487307400BD76E7 /* Build configuration list for PBXProject "Take5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23C64341487307400BD76E7 /* Debug */,
+				D23C64351487307400BD76E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23C64361487307400BD76E7 /* Build configuration list for PBXNativeTarget "Take5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23C64371487307400BD76E7 /* Debug */,
+				D23C64381487307400BD76E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D23C64391487307400BD76E7 /* Build configuration list for PBXNativeTarget "Take5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23C643A1487307400BD76E7 /* Debug */,
+				D23C643B1487307400BD76E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D23C64151487307400BD76E7 /* Take5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D23C64161487307400BD76E7 /* Take5.xcdatamodel */,
+			);
+			currentVersion = D23C64161487307400BD76E7 /* Take5.xcdatamodel */;
+			path = Take5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D23C63F11487307400BD76E7 /* Project object */;
+}
