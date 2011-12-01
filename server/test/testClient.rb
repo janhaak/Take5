@@ -1,7 +1,7 @@
 require 'patron'
 require 'json'
 
-baseURL="http://localhost:9393"
+baseURL="http://localhost:9292"
 
 sess = Patron::Session.new()
 sess.base_url = baseURL
