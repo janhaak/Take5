@@ -1,8 +1,8 @@
 {
 	"user":"TestUser",
 	"password":"TestPassword",
+	"template":"TestCompany",
 	"data": {        
-		"template":"TestCompany",
 		"author":"Power Man",
 		"Submitted":"29/07/1986 16:05",
 		"crew":"A",

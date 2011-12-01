@@ -1,8 +1,21 @@
 require 'sinatra'
 require 'json'
 require 'fileutils'
+require 'mongo'
+
 
 class Take5 < Sinatra::Base
+    
+	configure :development do    
+		puts "Connecting to dev mongo..."
+		@@conn = Mongo::Connection.new()
+		@@db = @@conn["take5"]
+		@@resultsCol= @@db["results"]
+	end
+	
+	configure :production do
+		puts "TODO - Load production mongo"
+	end
 	
 	@@TemplateDir="./Templates/"
 	@@ResultsDir="./Results/"
@@ -42,33 +55,21 @@ class Take5 < Sinatra::Base
     
 	# 
 	# Results
-	#
+	#    
 	
-	def writeResultsFile(template,user,data)
-		results = getResultsDir(template,user)
-		if not Dir.exist?(results) then
-			FileUtils.mkdir_p(results)
-		end
-		
-		file = File.new("#{results}/#{Time.now.strftime("%2d-%2m-%Y-%H:%M:%S")}.json","w")
-		file.write(data)
-		file.close
-	end
-	
-	def getResultsDir(template,user)
-		"#{@@ResultsDir}/#{template}/#{user}"   
+	def writeResults(data)     
+		puts "Inserting data!"
+		@@resultsCol.insert(data)
 	end
 	
 	post "/submit" do
         body=request.body.read
 		objBody = JSON.parse(body)
-		template = objBody["data"]["template"]
+		template = objBody["template"]
 		if getTemplates().include? (template) then          
 			user = objBody["user"]
 			pass = objBody["password"]
-            
-			writeResultsFile(template,user,objBody["data"])
-			
+            writeResults(objBody)			
 			puts "User '#{user}' Password '#{pass}' submitted for #{template}" 			
 			"OK".to_json
 		else 
@@ -79,15 +80,7 @@ class Take5 < Sinatra::Base
 	
 	get "/results/:template/:user" do |template,user|  
 		content_type :json
-		results = [] 
-		resultsDir = getResultsDir(template,user)
-	  	dir = Dir.new(resultsDir)
-	   	dir.each do |item|
-	   		if FileTest.file? ("#{resultsDir}/#{item}") then
-   				results.push(item.split(".").first)
-   			end
-   		end		      
-   		results.to_json
+		@@resultsCol.find({:template => template, :user => user}).to_a.to_json
 	end
 	
 	get "/results/:template/:user/:id" do |template,user,id|
