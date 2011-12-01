@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'json'
-require 'FileUtils'
+require 'fileutils'
 
 class Take5 < Sinatra::Base
 	
