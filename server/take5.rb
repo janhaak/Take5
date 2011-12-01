@@ -21,7 +21,7 @@ class Take5 < Sinatra::Base
 		@@resultsCol = @@db["results"]
 	end
 	
-	@@TemplateDir="./Templates/"
+	@@TemplateDir="./server/Templates/"
     
 	#
 	# Templates
