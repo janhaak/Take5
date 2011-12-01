@@ -22,7 +22,6 @@ class Take5 < Sinatra::Base
 	end
 	
 	@@TemplateDir="./Templates/"
-	@@ResultsDir="./Results/"
     
 	#
 	# Templates
@@ -87,10 +86,10 @@ class Take5 < Sinatra::Base
 		@@resultsCol.find({:template => template, :user => user}).to_a.to_json
 	end
 	
-	get "/results/:template/:user/:id" do |template,user,id|
-		content_type :json
-		f = File.new("#{getResultsDir(template,user)}/#{id}.json","r") 
-		f.readlines.join("")	 	
-	end
+	#get "/results/:template/:user/:id" do |template,user,id|
+	#	content_type :json
+	#	f = File.new("#{getResultsDir(template,user)}/#{id}.json","r") 
+	#	f.readlines.join("")	 	
+	#end
 	
 end                              
