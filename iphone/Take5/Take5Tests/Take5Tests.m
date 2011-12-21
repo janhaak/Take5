@@ -7,14 +7,17 @@
 //
 
 #import "Take5Tests.h"
+#import "Take5WebClient.h"
 
 @implementation Take5Tests
+{
+	Take5WebClient* webClient;
+}
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    webClient = [[Take5WebClient alloc] init];	
 }
 
 - (void)tearDown
@@ -24,9 +27,20 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testFetchTemplates
 {
-    STFail(@"Unit tests are not implemented yet in Take5Tests");
+	NSArray* templates = [webClient fetchTemplateNames];
+	NSLog(@"Templates: %@", templates);
+	STAssertNotNil(templates, @"Templates shouldn't be nil");
+	STAssertTrue([templates count] != 0, @"There should be templates");
+}
+
+- (void)testFetchTemplate
+{
+	NSDictionary* template = [webClient fetchTemplate:@"DownerEdi"];
+	NSLog(@"Template: %@", template);
+	STAssertNotNil(template, @"The template shouldn't be nil");
+	STAssertTrue([[template allKeys] count] > 0, @"There should be some templates");
 }
 
 @end

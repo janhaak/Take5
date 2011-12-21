@@ -22,6 +22,8 @@
 		D23C64281487307400BD76E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C64041487307400BD76E7 /* CoreData.framework */; };
 		D23C64301487307400BD76E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23C642E1487307400BD76E7 /* InfoPlist.strings */; };
 		D23C64331487307400BD76E7 /* Take5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C64321487307400BD76E7 /* Take5Tests.m */; };
+		D2EACEAE14A1F24000B183A6 /* Take5WebClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EACEAD14A1F24000B183A6 /* Take5WebClient.m */; };
+		D2EACEB214A204F000B183A6 /* TemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EACEB114A204F000B183A6 /* TemplateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		D23C642F1487307400BD76E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D23C64311487307400BD76E7 /* Take5Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Take5Tests.h; sourceTree = "<group>"; };
 		D23C64321487307400BD76E7 /* Take5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Take5Tests.m; sourceTree = "<group>"; };
+		D2EACEAC14A1F24000B183A6 /* Take5WebClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Take5WebClient.h; sourceTree = "<group>"; };
+		D2EACEAD14A1F24000B183A6 /* Take5WebClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Take5WebClient.m; sourceTree = "<group>"; };
+		D2EACEB014A204F000B183A6 /* TemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateViewController.h; sourceTree = "<group>"; };
+		D2EACEB114A204F000B183A6 /* TemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,8 @@
 		D23C64061487307400BD76E7 /* Take5 */ = {
 			isa = PBXGroup;
 			children = (
+				D2EACEAF14A204A800B183A6 /* Views */,
+				D2EACEAA14A1F1BF00B183A6 /* WebClient */,
 				D23C640F1487307400BD76E7 /* AppDelegate.h */,
 				D23C64101487307400BD76E7 /* AppDelegate.m */,
 				D23C64121487307400BD76E7 /* MainStoryboard.storyboard */,
@@ -153,6 +161,24 @@
 				D23C642E1487307400BD76E7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2EACEAA14A1F1BF00B183A6 /* WebClient */ = {
+			isa = PBXGroup;
+			children = (
+				D2EACEAC14A1F24000B183A6 /* Take5WebClient.h */,
+				D2EACEAD14A1F24000B183A6 /* Take5WebClient.m */,
+			);
+			name = WebClient;
+			sourceTree = "<group>";
+		};
+		D2EACEAF14A204A800B183A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2EACEB014A204F000B183A6 /* TemplateViewController.h */,
+				D2EACEB114A204F000B183A6 /* TemplateViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +290,8 @@
 				D23C640D1487307400BD76E7 /* main.m in Sources */,
 				D23C64111487307400BD76E7 /* AppDelegate.m in Sources */,
 				D23C64171487307400BD76E7 /* Take5.xcdatamodeld in Sources */,
+				D2EACEAE14A1F24000B183A6 /* Take5WebClient.m in Sources */,
+				D2EACEB214A204F000B183A6 /* TemplateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +461,7 @@
 				D23C64381487307400BD76E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D23C64391487307400BD76E7 /* Build configuration list for PBXNativeTarget "Take5Tests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +470,7 @@
 				D23C643B1487307400BD76E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
